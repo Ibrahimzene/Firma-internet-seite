@@ -14,31 +14,16 @@ body header img {
     border: 0;
 }
 
-body h5 {
-    margin: 0;
-    color: rgb(215, 221, 227);
+h1, h2, h3, h4, h5, h6,ul,li, p,a {
+    color: aliceblue;
 }
 
 body header nav a {
      color: #f7b00b;
    text-decoration: none;
 }
-
 body header nav a.active {
     color: #b3ea70;
   text-decoration: none;
 }
-h2 {
-    color: aliceblue;
-}
-
-p {
-    color: aliceblue;
-}
- h4 {
-    color: aliceblue;
- }
-
- ul li{
-    color: aliceblue;
- }
+ 
