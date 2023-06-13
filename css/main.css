@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+main {
+  margin-bottom: 10vh;
+}
+
 body {
   background-color: #750b40;
   font-family: Verdana, arial, helvetica;
@@ -15,11 +19,40 @@ body {
 body header img {
   width: 150px;
 }
+
+.borger_menu {
+width: 40px;
+height: 40px;
+background-color: orange;
+}
+
+
 .nave_menu {
   display:flex;
 gap:  3vh;
   padding: 0 2rem;
 }
+nav {
+  display: none;
+}
+@media screen and (min-width: 768px){
+  nav {
+    display: flex;
+  }
+  
+  .borger_menu {
+    display: none;
+  }
+}
+
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
 h1,
 h2,
 h3,
