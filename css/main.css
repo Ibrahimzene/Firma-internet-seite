@@ -14,13 +14,12 @@ body {
 
 body header img {
   width: 150px;
-  height: 150px;
-  float: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
-
+.nave_menu {
+  display:flex;
+gap:  3vh;
+  padding: 0 2rem;
+}
 h1,
 h2,
 h3,
@@ -63,6 +62,18 @@ img {
   height: auto;
 }
 
+.box, p, h4 {
+padding-bottom: 2rem;
+}
+
+ol {
+  padding-bottom: 2rem;
+}
+
+video {
+width: 100%;
+max-width: 700px;
+}
 footer {
 	padding: 1rem 5%;
 	display: flex;
