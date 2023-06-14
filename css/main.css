@@ -59,10 +59,10 @@ nav {
 
 ul {
   display: flex;
+  gap: 1rem;
 }
 li {
   list-style: none;
-  padding: 0 1rem;
 }
 
 h1,
@@ -113,18 +113,17 @@ video {
   max-width: 700px;
 }
 footer {
-  padding: 1rem 5%;
   display: flex;
   gap: 1rem;
   font-size: 1.4rem;
   align-items: center;
   position: fixed;
-  right: 0;
-  left: 5%;
+  left: 0;
   bottom: 0;
-  width: 90%;
+  width: 100%;
   background-color: rgba(71, 108, 14, 0.869);
   padding: 2px;
+  margin: 0 !important;
 }
 
 footer p {
